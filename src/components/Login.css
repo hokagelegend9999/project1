@@ -1,0 +1,44 @@
+.banner-container {
+    display: flex;
+    justify-content: flex-start; /* Menggeser ke kiri */
+    align-items: center; /* Tengahkan vertikal */
+    height: 100%;
+   
+  }
+  
+  .banner {
+  
+    width: 100%; /* Memastikan banner mengambil seluruh lebar parent */
+    height: 110%; /* Mengatur tinggi agar proporsional */
+    
+    object-fit: cover; /* Mengatur agar gambar mengisi secara proporsional */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Shadow warna */
+    border-radius: 20px; /* Tepi oval */
+  }
+  
+  .form-container {
+    background-color: #fff;
+    border-radius: 20px; /* Sama dengan border-radius banner */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Sama dengan box-shadow banner */
+    padding: 0px; /* Tambahkan padding untuk menyesuaikan dengan jarak border banner */
+  }
+  
+  .form-container .box {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+  }
+  
+  .form-container .title {
+    color: #333;
+    font-family: 'Hanzel', sans-serif; /* Menggunakan font Hanzel */
+  }
+  
+  .form-container .field {
+    margin-bottom: 10px;
+  }
+  
+  .form-container .button {
+    border-radius: 8px;
+  }
+  
